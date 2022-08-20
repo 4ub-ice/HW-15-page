@@ -1,0 +1,252 @@
+<!-- Сообщаем браузеру как стоит обрабатывать эту страницу -->
+<!DOCTYPE html>
+<!-- Оболочка документа, указываем язык содержимого -->
+<html lang="ru">
+  <!-- Заголовок страницы, контейнер для других важных данных (не отображается) -->
+  <head>
+    <!-- Заголовок страницы в браузере -->
+    <title>БЭМ домашка страница</title>
+    <!-- Подключаем CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- Кодировка страницы -->
+    <meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+  </head>
+
+  <body>
+    <div class="page">
+      <!-- ---------------------------------------first section------------------------------ -->
+      <div class="introduction">
+        <div class="introduction__logo">
+          <img src="img/Logo.png" alt="logo" />
+        </div>
+        <div class="introduction__header">
+          <span>Clear, smart, attractive design</span>
+          <p>for your app, logo, website</p>
+        </div>
+        <!-- <div class="introduction__text"></div> -->
+        <div class="introduction__line"></div>
+        <div class="introduction__button"><span>Read more</span></div>
+      </div>
+      <!-- ---------------------------------------second section------------------------------ -->
+      <div class="about">
+        <div class="menu">
+          <ul>
+            <li><span>home</span></li>
+            <li><span>about us</span></li>
+            <li><span>portfolio</span></li>
+            <li><span>contact</span></li>
+          </ul>
+        </div>
+        <div class="about__header"><span>About</span></div>
+        <div class="about__line"></div>
+        <div class="about__text">
+          <span
+            >We specialize in contemporary, functional, and stunning websites
+            with design that really brings that "WOW" factor. <br />
+            In our design process, we make sure to stay one step ahead of the
+            latest trends, <br />
+            never forgetting to abide by key web standards.</span
+          >
+        </div>
+
+        <div class="about__specializations">
+          <ul class="about__specializations-block">
+            <li>
+              <ul>
+                <li class="picture">
+                  <div><img src="img/icons/web.png" alt="1" /></div>
+                </li>
+                <li class="heading">
+                  <span>web</span>
+                </li>
+                <li class="text">
+                  <p>
+                    We tend to deliver unique and functional design, through
+                    innovation and creativity.
+                  </p>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <ul>
+                <li class="picture">
+                  <div><img src="img/icons/ios and android.png" alt="2" /></div>
+                </li>
+                <li class="heading">
+                  <span>iOS and android</span>
+                </li>
+                <li class="text">
+                  <p>
+                    We seek to bring new businesses and customers closer
+                    together through valuable insights and proper targeting.
+                  </p>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <ul>
+                <li class="picture">
+                  <div><img src="img/icons/marketing.png" alt="3" /></div>
+                </li>
+                <li class="heading">
+                  <span>marketing</span>
+                </li>
+                <li class="text">
+                  <p>
+                    We’ll help you establish the right goals and build the right
+                    paths. Success depends on setting the right intention.
+                  </p>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- ---------------------------------------third section------------------------------ -->
+      <div class="portfolio">
+        <div class="portfolio__header">
+          <span>portfolio</span>
+        </div>
+        <div class="portfolio__line"></div>
+        <div class="portfolio__menu">
+          <ul>
+            <li>
+              <span>all</span>
+            </li>
+            <li>
+              <span>web</span>
+            </li>
+            <li>
+              <span>apps</span>
+            </li>
+            <li>
+              <span>other</span>
+            </li>
+          </ul>
+        </div>
+        <div class="portfolio__pictures">
+          <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+          </ul>
+        </div>
+        <div class="portfolio__read-more">
+          <span>read more</span>
+        </div>
+      </div>
+      <!-- ---------------------------------------fourth section------------------------------ -->
+      <div class="partners">
+        <div class="partners__background"></div>
+        <div class="partners__header"><span>Our partners</span></div>
+        <div class="partners__logo">
+          <ul>
+            <li>
+              <img src="img/icons/logo-1.png" alt="logo1" />
+            </li>
+            <li><img src="img/icons/logo-2.png" alt="logo2" /></li>
+            <li><img src="img/icons/logo-3.png" alt="logo3" /></li>
+            <li><img src="img/icons/logo-4.png" alt="logo4" /></li>
+          </ul>
+        </div>
+      </div>
+      <!-- ---------------------------------------fifth section------------------------------ -->
+      <div class="contact">
+        <div class="contact__header"><span>contact</span></div>
+        <div class="contact__line"></div>
+        <ul class="contact__blocks">
+          <li class="form-li">
+            <form class="form" action="#">
+              <!-- –––––––––––––––––––––––––––––––––name -->
+              <div>
+                <label class="form__label" for="your-name"
+                  ><span>Your name</span></label
+                >
+                <br />
+                <input class="form__input" id="your-name" type="your-name" />
+              </div>
+              <!-- –––––––––––––––––––––––––––––––––email -->
+              <div>
+                <label class="form__label" for="your-email"
+                  ><span>Your E-mail</span></label
+                >
+                <br />
+                <input class="form__input" id="your-email" type="your-email" />
+              </div>
+              <!-- –––––––––––––––––––––––––––––––––message -->
+              <div class="text-block">
+                <label class="form__label" for="text-area"
+                  ><span>Message</span></label
+                >
+                <br />
+                <textarea
+                  class="text-area"
+                  name="text-area"
+                  id="text-area"
+                  cols="#"
+                  rows="#"
+                >
+                </textarea>
+              </div>
+              <br />
+              <div class="button">
+                <button type="submit"><span>Send</span></button>
+              </div>
+            </form>
+          </li>
+          <li class="contacts-li">
+            <ul>
+              <li>
+                <p>
+                  Have an idea for a project? Just looking to explore and see
+                  the possibilities? <br />
+                  I'm here to help.
+                </p>
+
+                <br />
+              </li>
+              <li><span>Postma Elena</span></li>
+              <br />
+              <br />
+              <li>
+                <ul class="contacts__links">
+                  <li>
+                    <img
+                      class="contacts-fb"
+                      src="img/icons/Facebook.png"
+                      alt="fb"
+                    />
+                  </li>
+                  <li>
+                    <img class="contacts-in" src="img/icons/in.png" alt="in" />
+                  </li>
+                </ul>
+              </li>
+              <li><span>e-mail: postma.elena@gmail.com</span></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <!-- ---------------------------------------footer------------------------------ -->
+      <div class="footer">
+        <div class="footer__logo">
+          <img src="img/logo-footer.png" alt="logo" />
+        </div>
+        <div class="footer__navigation">
+          <ul>
+            <li><span>Home</span></li>
+            <li><span>Facebook</span></li>
+            <li><span>Linkedin</span></li>
+            <li><span>Contact</span></li>
+          </ul>
+        </div>
+        <div class="footer__copyright">
+          <span>© 2015. All Rights Reserved </span>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
