@@ -530,6 +530,9 @@
   padding: 48px 0 49px 0;
 }
 .footer__logo {
+  width: 125px;
+  height: 80px;
+  margin: 0 auto;
   margin-bottom: 42px;
   &:hover {
     cursor: pointer;
@@ -549,6 +552,8 @@
     justify-content: space-between;
     flex-wrap: wrap;
     & li {
+      display: block;
+      border: 2px solid transparent;
       & span {
         font-size: 14px;
         color: #a4a4a4;

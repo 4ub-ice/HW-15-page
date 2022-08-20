@@ -668,6 +668,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .footer__logo {
+  width: 125px;
+  height: 80px;
+  margin: 0 auto;
   margin-bottom: 42px;
 }
 .footer__logo:hover {
@@ -696,6 +699,10 @@ h1, h2, h3, h4, h5, h6 {
           justify-content: space-between;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+}
+.footer__navigation ul li {
+  display: block;
+  border: 2px solid transparent;
 }
 .footer__navigation ul li span {
   font-size: 14px;
